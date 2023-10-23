@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <h3>JS Ussue Tracker nni</h3>
+            <form class="form">
+                <h4>Add new issue: </h4>
+                <small>description: </small>
+                <input type="text" class="desc" required>
+                <small>severity</small>
+                <select name="severity" class="select">
+                    <option value="low">low</option>
+                    <option value="medium" selected >medium</option>
+                    <option value="hard">hard</option>
+                </select>
+                <small>Assign to</small>
+                <input type="text" class="user" required>
+                <button type="submit" class="btn add">Add</button>
+            </form>
+            <div class="items">
+
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+
+
+</body>
+</html>
